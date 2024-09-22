@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calendar-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.calendar-header h2 {
+    margin: 0;
+}
+
+.calendar-header .button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.today-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+th {
+    background-color: #eee;
+    text-align: center;
+}
+
+.event {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.event .title {
+    font-weight: bold;
+}
+
+.event .details {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.tinggi-2jam {
+    height: 150px;
+}
+
+.tinggi-4jam {
+    height: 350px;
+}
+
+.tinggi-5jam {
+    height: 400px;
+}
+
+.sistem-terdistribusi {
+    background-color: #d1e7dd;
+}
+
+.aplikasi-mobile-3C,
+.aplikasi-mobile-3B {
+    background-color: #cfe2f3;
+}
+
+.desain-pemrograman-web {
+    background-color: #e2d3f3;
+}
+
+.matematika-diskrit {
+    background-color: #f8d7da;
+}
+
+.algoritma-pemrograman {
+    background-color: #c5e8a4;
+}
+
+.sistem-terdistribusi-3B {
+    background-color: #f6e58d;
+}
+
+.arsitektur-komputer {
+    background-color: #f4c3c3;
+}
+
+.produksi-audio {
+    background-color: #ffcc99;
+}
